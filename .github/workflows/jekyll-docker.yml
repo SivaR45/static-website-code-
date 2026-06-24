@@ -22,4 +22,4 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync ./space-static-website s3://demo-bucket-260611 --delete
+          aws s3 sync ./space-static-website s3://demo-bucket-240611 --delete
